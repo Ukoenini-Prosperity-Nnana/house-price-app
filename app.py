@@ -504,4 +504,4 @@ with tab4:
 
 # Footer
 st.markdown("---")
-st.markdown("Built by Nworah Solisa David, Nwokoro Kelechi Bryan, Ogunsola Adedapo Lincoln, Ukoenini Prosperity Nnana, Ogun Samuel Oluwatosin, Ojo Oluwatunmise Joel, Nwofor Somtochukwu Victory, Nwabude Ekene David, Okorie Chigozirim John")
+st.markdown("Built by Nworah Solisa David, Nwokoro Kelechi Bryan, Ogunsola Adedapo Lincoln, Ukoenini Prosperity Nnana, Ogun Samuel Oluwatosin, Ojo Oluwatunmise Joel, Nwofor Somtochukwu Victory, Nwabude Ekene David, Okorie Chigozirim John.")
