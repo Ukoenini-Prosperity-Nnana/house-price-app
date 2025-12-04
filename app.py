@@ -281,7 +281,7 @@ with tab1:
         prediction = model.predict(input_scaled)[0]
         
         # Ensure prediction is never negative(keep the same indent as the line above)
-        prediction = prediction * (prediction > 0)
+        prediction = max(prediction, 0)
         
         # Display result
         st.success("✅ Prediction Complete!")
