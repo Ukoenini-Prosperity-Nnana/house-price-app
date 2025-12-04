@@ -206,8 +206,6 @@ with tab1:
         
         longitude = st.number_input(
             "Longitude", 
-            min_value=-125.0, 
-            max_value=-114.0, 
             value=-122.0, 
             step=0.01
         )
