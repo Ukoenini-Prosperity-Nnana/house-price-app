@@ -200,12 +200,16 @@ with tab1:
         
         latitude = st.number_input(
             "Latitude",
+            min_value=32.0, 
+            max_value=42.0,
             value=37.5, 
             step=0.01
         )
         
         longitude = st.number_input(
-            "Longitude", 
+            "Longitude",
+            min_value=-125.0, 
+            max_value=-114.0, 
             value=-122.0, 
             step=0.01
         )
