@@ -280,6 +280,9 @@ with tab1:
         model = st.session_state.models[model_choice]
         prediction = model.predict(input_scaled)[0]
         
+        #prevent negative values
+         prediction = max(prediction, 0)
+        
         # Display result
         st.success("✅ Prediction Complete!")
         
