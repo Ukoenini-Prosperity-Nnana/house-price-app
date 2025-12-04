@@ -280,7 +280,7 @@ with tab1:
         model = st.session_state.models[model_choice]
         prediction = model.predict(input_scaled)[0]
         
-        #prevent negative values
+        # Ensure prediction is never negative(keep the same indent as the line above)
          prediction = max(prediction, 0)
         
         # Display result
