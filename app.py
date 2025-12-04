@@ -199,9 +199,7 @@ with tab1:
         )
         
         latitude = st.number_input(
-            "Latitude", 
-            min_value=32.0, 
-            max_value=42.0, 
+            "Latitude",
             value=37.5, 
             step=0.01
         )
