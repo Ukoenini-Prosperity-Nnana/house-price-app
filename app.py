@@ -280,8 +280,8 @@ with tab1:
         model = st.session_state.models[model_choice]
         prediction = model.predict(input_scaled)[0]
         
-        # Ensure prediction is never negative(keep the same indent as the line above)
-        prediction = max(prediction, 0)
+        min_value = st.session_state.y_train.min()
+        prediction = max(prediction, min_value)
         
         # Display result
         st.success("✅ Prediction Complete!")
